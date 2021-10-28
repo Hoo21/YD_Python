@@ -1,3 +1,7 @@
+'''
+같은 폴더 및 위치에 있는 파일 속 텍스트를 불러오는 코드
+'''
+
 sum = 0
 f = open("input.txt", "r") # r means read
 lines = f.readlines() # read all lines
